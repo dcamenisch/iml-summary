@@ -16,7 +16,7 @@ We model the features by conditionally independent Gaussians and estimate the pa
 	\item MLE for class prior:
 		$$p(y) = \hat p_y = \frac{\text{Count}(Y = y)}{n}$$
 	\item MLE for feature distribution:
-		$$p(x_i \; | \; y) = \mathcal{N}(x_i; \hat \mu_{y,i}), \sigma^2_{y,i}$$
+		$$p(x_i \; | \; y) = \mathcal{N}(x_i; \hat \mu_{y,i}, \sigma^2_{y,i})$$
 \end{enumerate}
 
 Where:
